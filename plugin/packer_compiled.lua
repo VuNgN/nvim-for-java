@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
@@ -94,15 +99,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["nerdtree-git-plugin"] = {
+    loaded = true,
+    path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nerdtree-git-plugin",
+    url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
+  },
   ["nvim-jdtls"] = {
     loaded = true,
     path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls",
     url = "https://github.com/mfussenegger/nvim-jdtls"
-  },
-  ["nvim-lspconfig"] = {
-    loaded = true,
-    path = "C:\\Users\\vungn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
-    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
     loaded = true,

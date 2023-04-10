@@ -31,10 +31,6 @@ return require('packer').startup(function(use)
     run = ":MasonUpdate" -- :MasonUpdate updates registry contents
   }
   use 'mfussenegger/nvim-jdtls'
-  use {
-    'kdheepak/tabline.nvim',
-    requires = { { 'hoob3rt/lualine.nvim', opt=true }, {'kyazdani42/nvim-web-devicons', opt = true} }
-  }
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use 'norcalli/nvim-colorizer.lua'
   use 'Xuyuanp/nerdtree-git-plugin'
