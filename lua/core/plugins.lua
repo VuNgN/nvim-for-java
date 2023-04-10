@@ -34,6 +34,8 @@ return require('packer').startup(function(use)
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use 'norcalli/nvim-colorizer.lua'
   use 'Xuyuanp/nerdtree-git-plugin'
+  use 'mfussenegger/nvim-dap'
+  use {'iamcco/markdown-preview.nvim'}
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
